@@ -15,7 +15,7 @@ while True:
 
     # red = cv2.inRange(frame, (0, 0, 100), (100, 100, 255))
     # rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    # cv2.imshow('RedFrame', rgb)
+    cv2.imshow('RedFrame', frame)
 
     if (cv2.waitKey(1) == ord('q')):
         break
